@@ -1,5 +1,12 @@
 #!/bin/bash
+
+echo "WRITE YOUR COMMIT"
+
+read var 
+
+
 git add . 
-git commit -m "alo alo"
+git commit -m "${var}"
 git push
+
 
